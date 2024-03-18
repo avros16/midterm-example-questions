@@ -1,5 +1,7 @@
 #include <iostream>
 
+
+// static_cast<what you wanna convert to>(variable you wanna convert)
 int main()
 {
 
@@ -29,23 +31,79 @@ using std::endl;
 
   // ***************************** exmaple c **********************************
 
-float temp{0};
+// float temp{0};
 
-  cout << "Please enter your body temperature: " << endl;
-  cin >> temp;
+//   cout << "Please enter your body temperature: " << endl;
+//   cin >> temp;
 
-  if (temp <= 98.6) {
-      cout << "You are okay to go to school\n";
-  } else if (temp >= 98.6 && temp <=100.1) {
-      cout << "You might be coming down with something, drink alot of fluids\n";
-  } else if (temp > 100.1) {
-      cout << "Omg you are not feeling well!\n";
-  }
+//   if (temp <= 98.6) {
+//       cout << "You are okay to go to school\n";
+//   } else if (temp >= 98.6 && temp <=100.1) {
+//       cout << "You might be coming down with something, drink alot of fluids\n";
+//   } else if (temp > 100.1) {
+//       cout << "Omg you are not feeling well!\n";
+//   }
 
+
+  // ************************* example D ******************
 
   
+//   #include <iostream>
+//   #include <cstdlib>
 
-  
+//   using std::cout;
+//   using std::cin;
+//   using std::endl;
+
+//   int main() {
+
+//   int rannum{0};
+//   int count{0};
+//   int av{0};
+
+
+
+//   while (count <=1000){
+
+//   count ++; 
+
+//   srand(time(0));
+//   rannum = (rand() % 6)+1;
+//   av = av + rannum;
+//   }
+
+//   av = av/count;
+
+//   cout << av;
+//   }
+
+
+
+
+// ************************************************************ example E ********************************
+
+
+  // #include <iostream>
+  // #include <cstdlib>
+
+  // using std::cout;
+  // using std::cin;
+  // using std::endl;
+
+  // int main() {
+
+  // int tempF{0};
+  // int tempC{0};
+
+  // cout << "What is the temp in Fahrenheit? ";
+  // cin >> tempF;
+
+  // tempC=5*(tempF-32)/9;
+
+
+  // cout << "This is the temp in Celcius: " <<tempC<<endl;
+
+  // }
 
   
 }
