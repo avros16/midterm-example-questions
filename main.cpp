@@ -104,7 +104,7 @@ using std::endl;
   // cout << "This is the temp in Celcius: " <<tempC<<endl;
 
   // }
-
+//**************************************************************
 
 
 // int i = 1;
@@ -129,6 +129,42 @@ using std::endl;
 //         }
 //     }
 //     }
-  
+  //**************************** exmaple I *******
+
+
+// int main() {
+
+// int debt{0};
+// int doubled{0};
+// int year{0};
+
+
+//    cout << "Enter the amount of debt you have: ";
+//    cin >> debt;
+   
+//    doubled = debt * 2;
+   
+//    while (debt <= doubled ) {
+//        debt = debt + 0.02*debt;
+//        year ++;
+//    }
+   
+//    cout << "It will take " << year << " years for the debt to double ($" << doubled <<"). ";
+   
+   
+   
+   
+   
+// }
+
+
+
+
+
+
+
+
+
+
   
 }
