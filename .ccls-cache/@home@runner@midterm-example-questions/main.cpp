@@ -179,10 +179,32 @@ using std::endl;
 
 
 
+// ************* exmaple from power point 1 *************
+
+//   int main() {
+
+//   int input {0};
+//   int zero{0};
+//   int math{0};
+
+//   cout << "Enter a number: ";
+//   cin >> input;
 
 
+//   cout << "This is the list of all multiples of 3: \n"; 
 
+//   while (input >= zero) {
+
+//       if (input%3 == 0) {
+//           cout << input << endl;
+//       }
+//    input = input -1;
+
+//   }
 
 
   
+// }
+
+
 }
