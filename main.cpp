@@ -157,6 +157,24 @@ using std::endl;
    
 // }
 
+// ********************* example K *************
+// int main() {
+
+// int input{0};
+// double counter{1};
+// double fraction {0};
+
+// cout << "Enter a denominator: ";
+// cin >> input;
+
+// while (counter <= input) {
+//     fraction = fraction + (1/counter); 
+//     counter ++;
+    
+    
+// }
+
+// cout << fraction;
 
 
 
