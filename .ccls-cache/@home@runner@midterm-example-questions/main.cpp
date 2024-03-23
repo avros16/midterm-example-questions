@@ -229,9 +229,21 @@ using std::endl;
   // ***** problem G *********
 
 
-  for (int i = 1; i <=10; i++) {
-    if (i < 5 && i != 2) {
-      cout << 'x';
-    }
+//   for (int i = 1; i <=10; i++) {
+//     if (i < 5 && i != 2) {
+//       cout << 'x';
+//     }
 
-} }
+// } 
+
+
+//****** problem K *****
+
+
+  
+
+
+
+
+
+}
