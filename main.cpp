@@ -225,21 +225,13 @@ using std::endl;
   // }
 
 
-  //***********git 
 
-  // #include <iostream>
-  // using namespace std;
-  // int main(){
-  // // declare and initialize variables
-  // int number = 0, i;
-  // // prompt user to input
-  // cout << "Please enter an integer: ";
-  // cin >> number;
-  // // enter loop
-  // for (i = 1; i < number; i *= 2){
-  // cout << i << " ";
-  // }
-  // cout << i;
-  // }
+  // ***** problem G *********
 
-}
+
+  for (int i = 1; i <=10; i++) {
+    if (i < 5 && i != 2) {
+      cout << 'x';
+    }
+
+} }
