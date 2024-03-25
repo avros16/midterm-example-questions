@@ -250,38 +250,38 @@ using std::string;
 
 
 
-// int inventory{0};
-// int tea{0};
-// int coffee{0};
-// string input;
+int inventory{0};
+int tea{0};
+int coffee{0};
+string input;
 
-//   cout << "How many teas does the cart have? ";
-//   cin >> tea;
-//   cout << "How many coffees does the cart have? ";
-//   cin >> coffee;
+  cout << "How many teas does the cart have? ";
+  cin >> tea;
+  cout << "How many coffees does the cart have? ";
+  cin >> coffee;
 
 
-//   inventory = tea + coffee;
+  inventory = tea + coffee;
 
-//   while (inventory > 0) {
+  while (inventory > 0) {
 
-//     cout << "Hello Customer, what would you like? ";
-//     cin >> input;
+    cout << "Hello Customer, what would you like? ";
+    cin >> input;
   
   
-  // if (input == "T" && tea == 0) {
-  //   cout << "oh my, sorry we don't have any tea left. ";
-  // } else if (input == "t" && tea == 0) {
-  //   cout << "oh my, sorry we don't have any tea left. ";
-  // } else if (input == "T" || input == "t") {
-  //     cout << "Thank you for your purchase. You have been given one tea.";
-  //       inventory--;
-  //       tea--;
-  //   } else if (input == "C" || input == "c") {
-  //     cout << "Thank you for your purchase. You have been given one coffee.";
-  //     inventory--;
-  //     coffee--;
-  //   }
+  if (input == "T" && tea == 0) {
+    cout << "oh my, sorry we don't have any tea left. ";
+  } else if (input == "t" && tea == 0) {
+    cout << "oh my, sorry we don't have any tea left. ";
+  } else if (input == "T" || input == "t") {
+      cout << "Thank you for your purchase. You have been given one tea.";
+        inventory--;
+        tea--;
+    } else if (input == "C" || input == "c") {
+      cout << "Thank you for your purchase. You have been given one coffee.";
+      inventory--;
+      coffee--;
+    }
 
     
     
@@ -295,10 +295,10 @@ using std::string;
   // number entered by the user.
 
 
-int number;
+// int number;
 
-  cout << "Please enter a number ";
-  cin >> number;
+//   cout << "Please enter a number ";
+//   cin >> number;
 
   
   
