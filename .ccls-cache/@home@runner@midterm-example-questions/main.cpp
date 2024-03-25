@@ -9,6 +9,7 @@ int main()
 using std::cout;
 using std::cin;
 using std::endl;
+using std::string;
     
 //     int x{10};
 //      while (x>0) {
@@ -236,8 +237,59 @@ using std::endl;
 
 // } 
 
+// *****************
+  
+  // Coffee Cart: Write a program that uses a while loop to manage
+  // orders for a coffee cart. A customer can buy coffee or tea from the
+  // cart. The cart will start with an inventory of coffees and an inventory
+  // of teas (integer values of your choice). As customers place orders,
+  // the number of coffees and teas in inventory will be reduced. As long
+  // as there is coffee or tea inventory remaining, the cart can stay in
+  // business. When the cart runs out of both coffee and tea, they will
+  // close for the day.
 
-//****** problem K *****
+
+
+int inventory{0};
+int tea{0};
+int coffee{0};
+string input;
+
+  cout << "How many teas does the cart have? ";
+  cin >> tea;
+  cout << "How many coffees does the cart have? ";
+  cin >> coffee;
+
+
+  inventory = tea + coffee;
+
+  while (inventory > 0) {
+
+    cout << "Hello Customer, what would you like? ";
+    cin >> input;
+  
+  
+  if (input == "T" && tea == 0) {
+    cout << "oh my, sorry we don't have any tea left. ";
+  } else if (input == "t" && tea == 0) {
+    cout << "oh my, sorry we don't have any tea left. ";
+  } else if (input == "T" || input == "t") {
+      cout << "Thank you for your purchase. You have been given one tea.";
+        inventory--;
+        tea--;
+    } else if (input == "C" || input == "c") {
+      cout << "Thank you for your purchase. You have been given one coffee.";
+      inventory--;
+      coffee--;
+    }
+
+    
+    
+  }
+
+  
+
+
 
 
   
