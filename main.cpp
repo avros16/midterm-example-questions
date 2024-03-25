@@ -250,23 +250,23 @@ using std::string;
 
 
 
-int inventory{0};
-int tea{0};
-int coffee{0};
-string input;
+// int inventory{0};
+// int tea{0};
+// int coffee{0};
+// string input;
 
-  cout << "How many teas does the cart have? ";
-  cin >> tea;
-  cout << "How many coffees does the cart have? ";
-  cin >> coffee;
+//   cout << "How many teas does the cart have? ";
+//   cin >> tea;
+//   cout << "How many coffees does the cart have? ";
+//   cin >> coffee;
 
 
-  inventory = tea + coffee;
+//   inventory = tea + coffee;
 
-  while (inventory > 0) {
+//   while (inventory > 0) {
 
-    cout << "Hello Customer, what would you like? ";
-    cin >> input;
+//     cout << "Hello Customer, what would you like? ";
+//     cin >> input;
   
   
   // if (input == "T" && tea == 0) {
@@ -289,9 +289,18 @@ string input;
 
   
 
+  // Write a for loop
+  // that calculates the lowest
+  // power of 2 that is larger than a
+  // number entered by the user.
 
 
+int number;
 
+  cout << "Please enter a number ";
+  cin >> number;
+
+  
   
 
 
