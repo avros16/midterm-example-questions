@@ -269,23 +269,23 @@ string input;
     cin >> input;
   
   
-  if (input == "T" && tea == 0) {
-    cout << "oh my, sorry we don't have any tea left. ";
-  } else if (input == "t" && tea == 0) {
-    cout << "oh my, sorry we don't have any tea left. ";
-  } else if (input == "T" || input == "t") {
-      cout << "Thank you for your purchase. You have been given one tea.";
-        inventory--;
-        tea--;
-    } else if (input == "C" || input == "c") {
-      cout << "Thank you for your purchase. You have been given one coffee.";
-      inventory--;
-      coffee--;
-    }
+  // if (input == "T" && tea == 0) {
+  //   cout << "oh my, sorry we don't have any tea left. ";
+  // } else if (input == "t" && tea == 0) {
+  //   cout << "oh my, sorry we don't have any tea left. ";
+  // } else if (input == "T" || input == "t") {
+  //     cout << "Thank you for your purchase. You have been given one tea.";
+  //       inventory--;
+  //       tea--;
+  //   } else if (input == "C" || input == "c") {
+  //     cout << "Thank you for your purchase. You have been given one coffee.";
+  //     inventory--;
+  //     coffee--;
+  //   }
 
     
     
-  }
+  // }
 
   
 
